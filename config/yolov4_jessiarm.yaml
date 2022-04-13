@@ -1,0 +1,13 @@
+yolo_model:
+
+  config_file:
+    name: yolov4-tiny-jessiarm.cfg
+  weight_file:
+    name: yolov4-tiny-jessiarm.weights
+  threshold:
+    value: 0.8
+  detection_classes:
+    names:
+      - GreenCylinder
+      - GreenXCube
+      - GrayYCube
