@@ -8,6 +8,6 @@ yolo_model:
     value: 0.8
   detection_classes:
     names:
-      - GreenCylinder
-      - GreenXCube
-      - GrayYCube
+      - RedCube
+      - RedStar
+      - BlueCylinder

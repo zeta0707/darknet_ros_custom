@@ -48,22 +48,11 @@ yolov4-tiny-gostop.weights
     <img src="/Images/jessicar1.png" width="400" />
 </p>
 
-## 1'st Jessiarm custom training
+## Jessiarm custom training
 ```
 yolov4_jessiarm.yaml
 yolov4-tiny-jessiarm.cfg   
-yolov4-tiny-jessiarm.weights  
-``` 
-<p align="center">
-    <img src="/Images/jessiarm1_1.png" width="400" />
-    <img src="/Images/jessiarm1_2.png" width="400" />
-</p>
-
-## 2'nd Jessiarm custom training
-```
-yolov4_jessiarm2.yaml
-yolov4-tiny-jessiarm2.cfg   
-yolov4-tiny-jessiarm2.weights 
+yolov4-tiny-jessiarm.weights 
 ```  
 <p align="center">
     <img src="/Images/jessiarm2_1.png" width="400" />
