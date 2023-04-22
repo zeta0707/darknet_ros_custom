@@ -6,27 +6,26 @@ Colab notebook: ZETA7, zeta0707@gmail.com
 https://colab.research.google.com/drive/1B6JZp6YvDtxhZKTIN7e3qpQFPcEPM1YK#scrollTo=NjKzw2TvZrOQ
 
 ```
+├── CMakeLists.txt
 ├── config
 │   ├── ros_csi.yaml
 │   ├── ros_webcam.yaml
 │   ├── ros.yaml
-│   ├── yolov4_jessiarm2.yaml
 │   ├── yolov4_jessiarm.yaml
 │   ├── yolov4_jessicar.yaml
 │   └── yolov4.yaml
+├── Images
 ├── launch
-│   ├── yolo_v4_jessiarm2.launch
 │   ├── yolo_v4_jessiarm.launch
 │   └── yolo_v4_jessicar.launch
+├── README.md
 └── yolo_network_config
     ├── cfg
     │   ├── yolov4-tiny.cfg
     │   ├── yolov4-tiny-gostop.cfg
-    │   ├── yolov4-tiny-jessiarm2.cfg
     │   └── yolov4-tiny-jessiarm.cfg
     └── weights
         ├── yolov4-tiny-gostop.weights
-        ├── yolov4-tiny-jessiarm2.weights
         ├── yolov4-tiny-jessiarm.weights
         └── yolov4-tiny.weights
 ```
