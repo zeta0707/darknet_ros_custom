@@ -1,7 +1,7 @@
 subscribers:
 
   camera_reading:
-    topic: /csi_cam_0/image_raw
+    topic: /csi_image
     queue_size: 1
 
 actions:
