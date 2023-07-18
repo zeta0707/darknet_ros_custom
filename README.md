@@ -8,16 +8,14 @@ https://colab.research.google.com/drive/1B6JZp6YvDtxhZKTIN7e3qpQFPcEPM1YK#scroll
 ```
 ├── CMakeLists.txt
 ├── config
-│   ├── ros_csi.yaml
-│   ├── ros_webcam.yaml
 │   ├── ros.yaml
 │   ├── yolov4_jessiarm.yaml
 │   ├── yolov4_jessicar.yaml
 │   └── yolov4.yaml
 ├── Images
 ├── launch
-│   ├── yolo_v4_jessiarm.launch
-│   └── yolo_v4_jessicar.launch
+│   ├── yolov4_jessiarm.launch
+│   └── yolov4_jessicar.launch
 ├── README.md
 └── yolo_network_config
     ├── cfg
