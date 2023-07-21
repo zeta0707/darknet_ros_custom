@@ -28,30 +28,34 @@ https://colab.research.google.com/drive/1B6JZp6YvDtxhZKTIN7e3qpQFPcEPM1YK#scroll
         └── yolov4-tiny.weights
 ```
 
-## Yolov4 tiny 
+## Yolov4-tiny 
+Pretranined model
 ```
 yolov4.yaml   
 yolov4-tiny.cfg   
 yolov4-tiny.weights: https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights   
 ```
 
-## Jessicar traffic signal
+## Jessicar custom training - for traffic signal following
 ```
 yolov4_jessicar.yaml      
 yolov4-tiny-gostop.cfg      
 yolov4-tiny-gostop.weights   
 ``` 
 <p align="center">
-    <img src="/Images/jessicar1.png" width="400" />
+    <img src="/Images/go.png" width="400" />
+    <img src="/Images/left.png" width="400" />
+    <img src="/Images/stop.png" width="400" />
+    <img src="/Images/right.png" width="400" />
 </p>
 
-## Jessiarm custom training
+## Jessiarm custom training - for Pick and Place two object
 ```
 yolov4_jessiarm.yaml
 yolov4-tiny-jessiarm.cfg   
 yolov4-tiny-jessiarm.weights 
 ```  
 <p align="center">
-    <img src="/Images/jessiarm2_1.png" width="400" />
+    <img src="/Images/jessiarm.png" width="400" />
 </p>
 
