@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <launch>
 
-  <!-- Use YOLOv4 -->
+  <!-- Use YOLOv4-tiny -->
   <arg name="network_param_file" default="$(find darknet_ros)/config/yolov4_jessiarm.yaml"/>
   <arg name="image" default="camera/rgb/image_raw" />
 

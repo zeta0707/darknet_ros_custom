@@ -49,6 +49,11 @@ yolov4-tiny-gostop.weights
     <img src="/Images/right.png" width="400" />
 </p>
 
+I used below picture for training.
+<p align="center">
+    <img src="/Images/trafficSign.jpg" width="600" />
+</p>
+
 ## Jessiarm custom training - Pick and Place two objects
 ```
 yolov4_jessiarm.yaml

@@ -2,7 +2,7 @@
 
 <launch>
 
-  <!-- Use YOLOv3 -->
+  <!-- Use YOLOv4-tiny -->
   <arg name="network_param_file" default="$(find darknet_ros)/config/yolov4_jessicar.yaml"/>
   <arg name="image" default="camera/rgb/image_raw" />
 
