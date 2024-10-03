@@ -1,5 +1,5 @@
 # overwrite custom train wieghts and cfg
-darknet_ros modification for Jetson and custom dataset
+Custom dataset training result for inference
 
 ROS code: ZETA7, zeta0707@gmail.com  
 Colab notebook: ZETA7, zeta0707@gmail.com  
@@ -22,9 +22,11 @@ https://colab.research.google.com/drive/1B6JZp6YvDtxhZKTIN7e3qpQFPcEPM1YK#scroll
     │   ├── yolov4-tiny.cfg
     │   ├── yolov4-tiny-gostop.cfg
     │   └── yolov4-tiny-jessiarm.cfg
+    │   └── yolov4-tiny-moniarm.cfg
     └── weights
         ├── yolov4-tiny-gostop.weights
         ├── yolov4-tiny-jessiarm.weights
+        ├── yolov4-tiny-moniarm.weights
         └── yolov4-tiny.weights
 ```
 
@@ -62,5 +64,15 @@ yolov4-tiny-jessiarm.weights
 ```  
 <p align="center">
     <img src="/Images/jessiarm.png" width="400" />
+</p>
+
+## Moniarm custom training - Pick and Place two objects
+```
+yolov4_moniarm.yaml
+yolov4-tiny-moniarm.cfg   
+yolov4-tiny-moniiarm.weights 
+```  
+<p align="center">
+    <img src="/Images/moniarm.png" width="400" />
 </p>
 
